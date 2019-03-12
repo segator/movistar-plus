@@ -1,0 +1,38 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: epg-grabber
+spec:
+  schedule: "1 */4 * * *"
+  successfulJobsHistoryLimit: 5
+  failedJobsHistoryLimit: 10
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: Never
+          containers:
+          - image: segator/epg
+            imagePullPolicy: Always
+            env:
+            - name: GIT_REPO
+              valueFrom:
+                configMapKeyRef:
+                  name: epg-movistar-git
+                  key: git
+            - name: GIT_SSH_COMMAND
+              value: "ssh -oStrictHostKeyChecking=no -i /key/private.key"
+            imagePullPolicy: Always
+            name: epg-grabber
+            volumeMounts:
+            - mountPath: /key
+              name: git-ssh
+          volumes:
+          - name: git-ssh
+            secret:
+              items:
+              - key: private.key
+                mode: 0700
+                path: private.key
+              secretName: epg-movistar-git-key
