@@ -283,4 +283,9 @@ If no value is entered here the individual 'update' values from the channellist 
 <channel update="i" site="plus.es" site_id="VAMOSD" xmltv_id="#Vamos">#Vamos</channel>
 <channel update="i" site="plus.es" site_id="VH1" xmltv_id="VH1">VH1</channel>
 <channel update="i" site="plus.es" site_id="VJR" xmltv_id="Viajar">Viajar</channel>
+  
+<channel update="i" site="plus.es" site_id="LIGBAR" xmltv_id="LaLigaTVBAR">LaLigaTVBAR</channel>
+<channel update="i" site="plus.es" site_id="LIGBA1" xmltv_id="LaLigaTVBAR1">LaLigaTVBAR1</channel>
+<channel update="i" site="plus.es" site_id="LIGBA2" xmltv_id="LaLigaTVBAR2">LaLigaTVBAR2</channel>
+
 </settings>
