@@ -256,4 +256,31 @@ If no value is entered here the individual 'update' values from the channellist 
 <channel update="i" site="plus.es" site_id="CHAUHD" xmltv_id="MLigadeCampeonesUHD">MLigadeCampeonesUHD</channel>
 <channel update="i" site="plus.es" site_id="MF1UHD" xmltv_id="MFormula1UHD">MFormula1UHD</channel>
 
+  
+ <!-- Manual set --> 
+<channel update="i" site="plus.es" site_id="LIGBAR" xmltv_id="laligatvbar">laligatvbar</channel>
+<channel update="i" site="plus.es" site_id="LIGBA1" xmltv_id="laligatvbarm1">laligatvbarm1</channel>
+<channel update="i" site="plus.es" site_id="LIGBA2" xmltv_id="laligatvbarm2">laligatvbarm2</channel>
+<channel update="i" site="plus.es" site_id="LIGBA3" xmltv_id="laligatvbarm3">laligatvbarm3</channel>
+<channel update="i" site="plus.es" site_id="LIGBA4" xmltv_id="laligatvbarm4">laligatvbarm4</channel>
+  
+<channel update="i" site="plus.es" site_id="MLIG4" xmltv_id="MLaLiga4">MLaLiga4</channel>
+<channel update="i" site="plus.es" site_id="MLIG5" xmltv_id="MLaLiga5">MLaLiga5</channel>
+<channel update="i" site="plus.es" site_id="MLIG6" xmltv_id="MLaLiga6">MLaLiga6</channel>
+<channel update="i" site="plus.es" site_id="MLIG7" xmltv_id="MLaLiga7">MLaLiga7</channel>
+<channel update="i" site="plus.es" site_id="MLIG8" xmltv_id="MLaLiga8">MLaLiga8</channel>
+<channel update="i" site="plus.es" site_id="MLIG9" xmltv_id="MLaLiga9">MLaLiga9</channel>
+  
+<channel update="i" site="plus.es" site_id="CHAP4" xmltv_id="mligadecampeones4">mligadecampeones4</channel>
+<channel update="i" site="plus.es" site_id="CHAP5" xmltv_id="mligadecampeones5">mligadecampeones5</channel>
+<channel update="i" site="plus.es" site_id="CHAP6" xmltv_id="mligadecampeones6">mligadecampeones6</channel>
+<channel update="i" site="plus.es" site_id="CHAP7" xmltv_id="mligadecampeones7">mligadecampeones7</channel>
+<channel update="i" site="plus.es" site_id="CHAP8" xmltv_id="mligadecampeones8">mligadecampeones8</channel>
+  
+<channel update="i" site="plus.es" site_id="USOP11" xmltv_id="mdeportes4">mdeportes4</channel>
+<channel update="i" site="plus.es" site_id="MULTI8" xmltv_id="mdeportes5">mdeportes5</channel>
+<channel update="i" site="plus.es" site_id="MULTI6" xmltv_id="mdeportes6">mdeportes6</channel>
+<channel update="i" site="plus.es" site_id="MULTI9" xmltv_id="mdeportes7">mdeportes7</channel>
+
+
 </settings>
